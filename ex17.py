@@ -11,7 +11,7 @@ indata=input.read() #call the "read" method,return a string to indata.
 print "The input file is %d bytes long "%len(indata)
 
 print "Ready,hit RETURN to continue,CTRL-C to abort."
-raw_input()
+raw_input()  #waiting input
 
 output=open(to_file,'w')
 output.write(indata)
